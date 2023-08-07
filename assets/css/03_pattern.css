@@ -1,0 +1,115 @@
+/*-----------------------------------------------------*/
+/*------------------COLORS-AND-FONTS-------------------*/
+/*-----------------------------------------------------
+#FFD100
+RGB 255 209 0
+#25282A
+RGB 37 40 42
+#54585A
+RGB 84 88 90
+#898D8D
+RGB 137 141 141
+#C7C9C7
+RGB 199 201 199
+
+font-family: ;
+font-family: ;
+font-family: ;
+font-family: ;
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+body{
+    margin: 0;
+    background-color: rgb(35, 35, 35);
+}
+header{
+    background-color: rgb(0, 208, 255);
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    background-color: rgb(35, 35, 35);
+    background-image: url(../img/people.jpg);
+    background-repeat: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 20px;
+    overflow: hidden;
+}
+#container{
+    width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+#container h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#container p{
+    margin-bottom: 15px;
+}
+#container input{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+}
+#state_select{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    appearance: none;
+    background-image: url(../img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: center;
+}
+#button{
+    color: white;
+    background-color: rgb(0, 208, 255);
+    font-weight: bold;
+}
+
+footer{
+    height: 30vh;
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    padding: 35px;
+}
+
+footer img{
+    width: 150px;
+}
+
+#information{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    width: 40%;
+    margin-left: 35px;
+}
+
+#information p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#information h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
